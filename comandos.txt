@@ -1,0 +1,16 @@
+-- baixar python
+
+COMANDOS
+
+D:							muda para outro disco local
+python -m venv venv				cria ambiente virtual
+venv\scripts\activate				ativa ambiente virtual
+pip install django				instala o django
+django-admin startproject olaMundo .	cria o projeto
+python manage.py runserver			executa o servidor
+python manage.py startapp home		
+
+
+** TODA VIEW RECEBE UMA REQUEST **
+
+
